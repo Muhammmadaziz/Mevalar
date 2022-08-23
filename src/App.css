@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+ .App{
+    height: 100vh;
+    
+}
+.colors{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    width: 70%;
+    margin: auto;
+    grid-gap: 20px;
+    background-color: rgb(234, 173, 18);
+    padding: 20px;
+    border-radius: 15px;
+}
+/* .App{
+    height: 100vh;
+}
+button{
+    width: 300px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-gap: 10px;
+    background-color: white;
+}
+button:nth-child(1){
+   
+    background-color: blue;
+}
+button:nth-child(2){
+    background-color: red;
+}
+button:nth-child(3){
+    background-color: orange;
+} */
